@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background:wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+
+#h1 {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    border-color: thistle;
+    
+}
+.values {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+#h1-blog{
+    color: pink;
+    text-align: center;
+    font-size: 70px;
+}
+#h2{
+    color: white;
+    text-align: center;
+
+}
+#h2-blog {
+    margin-top: 10px;
+    text-align: center;
+}
+.p-me{
+    text-transform: capitalize;
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#h3{
+    color: whitesmoke;
+    text-align: center;
+}
+li {
+    left: 0px;
+    top: 10px;
+    margin-left: 60px;
+    display: inline-block;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    
+}
+.p1 {
+    text-align: center;
+    color: teal;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.blog-entries{
+    margin-top: 7%;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.main{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#second{
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin: 0;
+}
+
+#welcome{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(160, 160, 160);
+    padding-top: 2%;
+}
+#image1{
+    padding-top: 2%;
+    width: 40%;
+}
+#image2{
+    padding-top: 1%;
+    width: 50%;
+}
+#image3{
+    width:100%;
+    padding-top: 1%;
+}

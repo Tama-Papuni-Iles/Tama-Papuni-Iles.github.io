@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My-Blog</title>
+    <meta charset="UTF-8">
+    <link href="main.css" rel="stylesheet" type="text/css">
+  
+  </head>
+
+  
+  <body>
+    <header>
+  
+  <nav>
+    <div>
+    <ul>
+      <li id="home"> <a href="home.html">Home</a></li>
+      <li id="blogs"><a href="My-Blog.html">Sprint-Enrties</a></li>
+      <li id="about-me"><a href="About me.html">About me</a></li>
+      
+      </ul>
+    </div>
+  </nav>
+  <h1 class="values">What are the best practices associated with using classes vs. ids?</h1>
+  <div class="main">
+  <p>There are many elements used to create a webpage and some of them will have the same css 
+      styles applied, however there are also elements that would have tailored styles added to them.
+       Class is great way to apply style to multiple elements that will all look the same, for example you
+        may have a Nav bar or headers which you would want to remain the same style for each of your html 
+        pages. By creating a class and giving the nav bar on every page the same .class you can make 
+        changes to all html pages containing the nav bar simply by editing the .class in you css stylesheet. 
+        The order of which the classes are stored in you css file determines which style is applied to the element. 
+        The lower class will always overwrite the all classes above it. 
+      <img id ="image1" src="images/Screenshot class-1.jpg"> <img id="image2" src="images/Screenshot class-2.jpg">
+    </p>
+    <p>
+      The id attribute on the other hand works really well when you want to apply style to a particular element without 
+      affecting other elements around it. This is used when you may have something in a class but want to give a specific element of 
+      that class its own style, you then create a #id attribute and cat edit with-out changing anything in that class. Id is more specific
+       and should only be used once on a page where as a class is used on multiple pages. The #id attribute will overwrite any .class 
+       attributes.  
+       <img id="image3" src="images/Screenshot-3.jpg">
+    </p>
+    </div>
+</header>  
