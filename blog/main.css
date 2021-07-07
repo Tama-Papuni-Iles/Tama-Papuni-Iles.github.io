@@ -51,6 +51,7 @@ li {
     display: inline-block;
     list-style-type: none;
     color: rgb(0, 0, 0);
+    position: relative;
     
 }
 .p1 {
@@ -61,7 +62,7 @@ li {
 }
 .blog-entries{
     margin-top: 7%;
-    margin-left: 70px;
+    margin-left: 20%;
     margin-right: 10px;
     font-size: 20px;
 }
@@ -87,12 +88,13 @@ li {
     padding-top: 2%;
 }
 #image1{
-    padding-top: 2%;
-    width: 40%;
+    padding-top: 5%;
+    width: 50%;
 }
 #image2{
     padding-top: 1%;
-    width: 50%;
+    width: 45%;
+    padding-bottom: 4%;
 }
 #image3{
     width:100%;
